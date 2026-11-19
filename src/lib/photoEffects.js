@@ -115,6 +115,56 @@ export const EFFECTS = [
     swatch: '#cfd8e8',
   },
   {
+    id: 'instant',
+    label: 'Polaroid',
+    emoji: '📸',
+    swatch: '#d9bd91',
+    filter: {
+      sepia: 0.12,
+      warmth: 12,
+      saturate: 0.88,
+      brightness: 1.08,
+      contrast: 0.92,
+      fade: 0.16,
+    },
+    tint: {
+      color: '#f5d9ad',
+      alpha: 0.16,
+      mode: 'soft-light',
+    },
+    vignette: 0.25,
+  },
+  {
+    id: 'silver',
+    label: 'Prata',
+    emoji: '🪩',
+    swatch: '#aebdd2',
+    filter: {
+      gray: 1,
+      contrast: 1.22,
+      brightness: 1.1,
+      shadows: 0.12,
+    },
+    tint: {
+      color: '#a9c9ef',
+      alpha: 0.2,
+      mode: 'soft-light',
+    },
+    vignette: 0.25,
+    items: STARS,
+  },
+  {
+    id: 'confete',
+    label: 'Confete',
+    emoji: '🎉',
+    swatch: '#ffd43b',
+    filter: {
+      saturate: 1.25,
+      brightness: 1.05,
+    },
+    items: confetti(60, 21),
+  },
+  {
     id: 'vivid',
     label: 'Vívido',
     emoji: '🌈',
@@ -243,45 +293,8 @@ export const EFFECTS = [
     },
     vignette: 0.42,
   },
-  {
-    id: 'instant',
-    label: 'Polaroid',
-    emoji: '📸',
-    swatch: '#d9bd91',
-    filter: {
-      sepia: 0.12,
-      warmth: 12,
-      saturate: 0.88,
-      brightness: 1.08,
-      contrast: 0.92,
-      fade: 0.16,
-    },
-    tint: {
-      color: '#f5d9ad',
-      alpha: 0.16,
-      mode: 'soft-light',
-    },
-    vignette: 0.25,
-  },
-  {
-    id: 'silver',
-    label: 'Prata',
-    emoji: '🪩',
-    swatch: '#aebdd2',
-    filter: {
-      gray: 1,
-      contrast: 1.22,
-      brightness: 1.1,
-      shadows: 0.12,
-    },
-    tint: {
-      color: '#a9c9ef',
-      alpha: 0.2,
-      mode: 'soft-light',
-    },
-    vignette: 0.25,
-    items: STARS,
-  },
+  
+  
   {
     id: 'pink',
     label: 'Rosa chiclete',
@@ -327,17 +340,7 @@ export const EFFECTS = [
     },
     items: [...confetti(30, 7), HAT],
   },
-  {
-    id: 'confete',
-    label: 'Confete',
-    emoji: '🎉',
-    swatch: '#ffd43b',
-    filter: {
-      saturate: 1.25,
-      brightness: 1.05,
-    },
-    items: confetti(60, 21),
-  },
+  
 
 ]
 
