@@ -16,7 +16,7 @@ export default function Layout({ children }) {
       <header className="topbar">
         <Link to="/" className="brand" onClick={() => setOpen(false)}>
           <img src={img('convite/star1.png')} alt="" className="brand-star" />
-          <span>NANY<b>·</b>FESTA</span>
+          <span>NANY<b>·</b>PARTY</span>
         </Link>
         <button className="mobile-menu" onClick={() => setOpen(!open)} aria-label={open ? 'Fechar menu' : 'Abrir menu'} aria-expanded={open}>
           {open ? <X /> : <Menu />}
