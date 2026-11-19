@@ -127,7 +127,7 @@ const polaroids = [
   {
     id: 7,
     image: img('../img/nany/n3.png'),
-    caption: 'cara de travessa',
+    caption: 'ㅤ',
     background: '#c9b6ff',
     rotation: -4,
   },
@@ -183,7 +183,7 @@ function Gallery() {
   return (
     <section className="gallery" ref={ref}>
       <Reveal className="gallery-head">
-        <span className="eyebrow">Conheça o</span>
+        <span className="eyebrow">Just Kidding</span>
         <Ransom text="Álbum da Nany!" delay={0.1} className="small" />
       </Reveal>
 

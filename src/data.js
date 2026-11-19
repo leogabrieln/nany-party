@@ -21,10 +21,14 @@ export const nanyPics = ['n1', 'n2', 'n3', 'n4', 'n5', 'n6', 'n7', 'n8'].map(n =
 
 // Perguntas do quiz — troque/adicione as suas! `answer` é o índice (começando em 0) da opção correta.
 export const quizQuestions = [
-  { question: 'Qual personagem aparece no maiô cor-de-rosa da Nany?', options: ['Marie (Aristogatas)', 'Hello Kitty', 'Minnie', 'Mulan'], answer: 0 },
-  { question: 'Qual comida a Nany está devorando em uma das fotos?', options: ['Pipoca', 'Milho', 'Pastel', 'Melancia'], answer: 1 },
-  { question: 'De que cores é a peruca que a Nany usa?', options: ['Rosa e roxo', 'Azul e prata', 'Verde e amarelo', 'Vermelho e laranja'], answer: 2 },
-  { question: 'Que acessório a Nany adora usar nas fotos?', options: ['Luvas', 'Óculos escuros', 'Gravata', 'Bigode de mentira'], answer: 1 },
-  { question: 'A camiseta amarela da Nany é de qual seleção?', options: ['Argentina', 'França', 'Portugal', 'Brasil'], answer: 3 },
-  { question: 'Qual item brilhante é a cara do convite?', options: ['Bola de espelhos', 'Lustre', 'Estrela do mar', 'Árvore de Natal'], answer: 0 },
+  { question: 'Qual o dia oficial em que eu nasci?', options: ['11 de novembro', '20 de novembro', '10 de novembro', '17 de novembro'], answer: 2 },
+  { question: 'Qual bebida seria ideal para acompanhar uma refeição', options: ['Água', 'Coca-Cola Zero', 'Suco de Laranja', 'Sprite'], answer: 0 },
+  { question: 'Qual os nomes dos meus cachorros?', options: ['Luna e Luck', 'Nina e Mike', 'Hanna e Luck', 'Luna e Mike'], answer: 2 },
+  { question: 'Qual meu curso no Senai?', options: ['Mecânica', 'Mecatrônica', 'Elétrica', 'Eletromecânica'], answer: 3 },
+  { question: 'Qual curso da faculdade eu gostaria de fazer?', options: ['Engenharia de Automação', 'Engenharia de Produção', 'Engenharia da Pesca', 'Engenharia de Software'], answer: 0 },
+  { question: 'Se eu ganhasse uma passagem de avião agora, para onde eu iria?', options: ['Nova Iorque', 'França', 'Itália', 'Canadá'], answer: 2},
+  { question: 'Se eu pudesse ter 2 carros na garagem, quais seriam?', options: ['BMW e Ferrari', 'Fusca e Porsche', 'Mustang e Lamborghini', 'Camaro e Tesla'], answer: 1 },
+  { question: 'Como costumo demostrar que gosto de alguém?', options: ['Com presentes', 'Com palavras', 'Passando tempo junto', 'Com atitudes'], answer: 2 },
+  { question: 'Qual profissão eu queria seguir na infância?', options: ['Professora', 'Veterinária', 'Estilista', 'Arquiteta'], answer: 1 },
+  { question: 'Em qual setor eu atuo no meu trabalho?', options: ['Administração', 'Manutenção', 'Ferramentaria', 'Recursos Humanos'], answer: 2 },
 ]
