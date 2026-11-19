@@ -1,0 +1,48 @@
+/* ═════ Ajustes para celular (o site é usado 100% no celular) ═════ */
+html, body { overflow-x: hidden; -webkit-text-size-adjust: 100%; }
+img, video, canvas, svg { max-width: 100%; }
+button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+input, textarea { font-size: 16px; } /* evita zoom automático no iPhone */
+
+/* Cabine */
+.caption-input { text-align: center; font-weight: 600; background: #fff; color: var(--ink); border-color: rgba(9,18,56,.3); }
+.booth-start p { color: var(--ink); opacity: .8; }
+.booth-edit { display: grid; gap: 14px; justify-items: center; }
+.booth-edit .polaroid-out { width: min(100%, 380px); }
+.booth-edit .polaroid-out img { display: block; width: 100%; height: auto; }
+.booth-edit .effect-strip { width: 100%; margin: 4px 0 0; }
+.booth-edit .result-actions { gap: 10px; }
+.booth-edit .eyebrow { color: var(--ink); }
+.booth-edit .success-note { color: #1a6b2a; } .booth-edit .error-note { color: #c4153a; }
+.booth-edit .text-button { color: var(--ink); }
+
+/* Trilha: card no estilo do player do Spotify */
+.player-card { background: #0d1630; border-color: rgba(125,181,255,.35); }
+.player-head { color: #fff; }
+.player-card iframe { display: block; width: 100%; min-height: 352px; border-radius: 14px; }
+.player-card .spotify-btn { background: #1ed760; color: #04120a; box-shadow: 0 5px 0 #14993f, 0 10px 20px rgba(0,0,0,.3); }
+.player-empty { padding: 18px 6px 10px; }
+.player-empty span { font-size: 48px; } .player-empty h3 { font-size: 22px; }
+.sp-skeleton { width: 100%; display: grid; gap: 8px; margin-top: 10px; padding: 12px; border-radius: 12px; background: rgba(255,255,255,.05); text-align: left; }
+.sp-skeleton i { display: grid; grid-template-columns: 18px 1fr 36px; align-items: center; gap: 10px; font-style: normal; }
+.sp-skeleton b { font: 500 11px var(--f-mono); color: var(--silver-d); }
+.sp-skeleton u { height: 10px; border-radius: 6px; background: rgba(255,255,255,.14); } .sp-skeleton s { height: 8px; border-radius: 6px; background: rgba(255,255,255,.08); }
+
+@media (max-width: 640px) {
+  :root { --gutter: 16px; }
+  .curtain { display: none; }
+  .booth-top { padding-top: 34px; }
+  .booth-stage { padding: 6px 12px; }
+  .booth-card { padding: 14px; border-radius: 22px; }
+  .viewfinder { border-width: 4px; max-height: 62svh; width: 100%; margin-inline: auto; }
+  .shutter { width: 76px; height: 76px; } .shutter span { width: 52px; height: 52px; }
+  .round-btn { width: 54px; height: 54px; }
+  .effect-chip { width: 70px; } .effect-chip .swatch { width: 50px; height: 50px; font-size: 22px; }
+  .booth-edit .polaroid-out, .result-actions .primary-button, .result-actions .secondary-button { width: 100%; }
+  .player-card { padding: 16px; border-radius: 22px; }
+  .vinyl-wrap { width: min(100%, 290px); margin-inline: auto; } .vinyl { width: 100%; }
+  .primary-button { padding: 14px 20px; }
+  .album-actions { flex-wrap: wrap; justify-content: center; }
+  .footer { flex-direction: column; gap: 6px; text-align: center; }
+  .lightbox { padding: 12px; } .lb-card { max-width: 100%; }
+}
